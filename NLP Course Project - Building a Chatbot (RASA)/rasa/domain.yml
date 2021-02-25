@@ -1,0 +1,133 @@
+actions:
+- action_search_restaurants
+- action_send_details
+- action_validate_cuisine
+- action_validate_location
+- utter_affirm_reply
+- utter_ask_budget
+- utter_ask_cuisine
+- utter_ask_details
+- utter_ask_email
+- utter_ask_howcanhelp
+- utter_ask_location
+- utter_bot_job
+- utter_confirm_email
+- utter_default
+- utter_email_sending_error
+- utter_email_sent
+- utter_goodbye
+- utter_greet
+- utter_help_user_search
+- utter_invalid_cuisine
+- utter_invalid_location
+- utter_no_email
+- utter_reply_abuse
+- utter_want_to_enter_location_again
+entities:
+- budget
+- cuisine
+- emailid
+- location
+intents:
+- ask_email
+- greet
+- goodbye
+- restaurant_search
+- affirm
+- ask_budget
+- deny
+- thank
+- user_require_help
+- ask_bot_job
+- about_bot
+- abuse
+- stop
+responses:
+  utter_affirm_reply:
+  - text: i like helping people that's my job :)
+  utter_ask_budget:
+  - buttons:
+    - payload: '/ask_budget{"budget": "299"}'
+      title: Lesser than Rs 300
+    - payload: '/ask_budget{"budget": "300"}'
+      title: Between Rs 300 and 700
+    - payload: '/ask_budget{"budget": "701"}'
+      title: More than 700
+    text: What's the average budget for two people?
+  utter_ask_cuisine:
+  - buttons:
+    - payload: Chinese
+      title: Chinese
+    - payload: Mexican
+      title: Mexican
+    - payload: Italian
+      title: Italian
+    - payload: American
+      title: American
+    - payload: South Indian
+      title: South Indian
+    - payload: North Indian
+      title: North Indian
+    text: what kind of cuisine would you like?
+  utter_ask_details:
+  - text: Do you want the restaurant details on email?
+  utter_ask_email:
+  - text: What's your email id?
+  - text: To what email id should I send it to?
+  utter_ask_howcanhelp:
+  - text: how can I help you?
+  utter_ask_location:
+  - text: In which location?
+  utter_bot_job:
+  - text: I am foodie bot. I can help you find restaurant in tier1 and tier2 cities.
+  utter_confirm_email:
+  - text: Required details are emailed. Please check!!
+  utter_default:
+  - text: i cannot understand
+  utter_email_sending_error:
+  - text: 'i am facing issue while sending the email. Will try again after some time '
+  utter_email_sent:
+  - text: Sent. Bon Appetit!
+  utter_goodbye:
+  - text: goodbye :(
+  - text: bye :(
+  utter_greet:
+  - text: hey there!. I am foodie bot. How may i help you
+  - text: Hi, i am foodie bot how can I help you!
+  - text: Hey, i am foodie bot how is it going. How May I help you Today
+  utter_help_user_search:
+  - text: No worries just answer my questions and i will find you the best restaurant
+      within your budget
+  utter_invalid_cuisine:
+  - text: Sorry we only handle the below cuisines. Please select yours cuisine preference.
+  utter_invalid_location:
+  - text: We do not operate in that area yet.
+  utter_no_email:
+  - text: Okay. Bon Appetit!
+  utter_reply_abuse:
+  - text: i think you are not in good mood. will catch you up later :)
+  - text: that's rude. good-bye :(
+  utter_want_to_enter_location_again:
+  - text: Want to enter location again?
+session_config:
+  carry_over_slots_to_new_session: true
+  session_expiration_time: 0
+slots:
+  budget:
+    type: text
+  cuisine:
+    type: text
+  emailid:
+    type: text
+  is_cuisine_valid:
+    type: categorical
+    values:
+    - valid
+    - invalid
+  location:
+    type: text
+  location_valid:
+    type: categorical
+    values:
+    - invalid
+    - valid

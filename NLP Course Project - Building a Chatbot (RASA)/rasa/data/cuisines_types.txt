@@ -1,0 +1,111 @@
+ainu
+albanian
+argentine
+american
+andhra
+anglo-Indian
+arab
+armenian
+assyrian
+awadhi
+azerbaijani
+balochi
+belarusian
+bangladeshi
+bengali
+berber
+brazilian
+british
+buddhist
+bulgarian
+cajun
+cantonese
+caribbean
+chechen
+chinese cuisine
+chinese Islamic
+circassian
+crimean Tatar
+cypriot
+danish
+English
+Ethiopian
+Eritrean
+Estonian
+French
+Filipino
+Georgian
+German
+Goan
+Goan catholic
+Greek
+Gujarati
+Hyderabad
+Indonesian
+Inuit
+Irish
+Italian-american
+Italian
+Jamaican
+Japanese
+Jewish
+Karnataka
+Kazakh
+Keralite
+Korean
+Kurdish
+Laotian
+Lebanese
+Latvian
+Lithuanian
+Louisiana creole
+Maharashtrian
+Mangalorean
+Malay
+Malaysian chinese cuisine
+Malaysian Indian cuisine
+Mediterranean cuisine
+Mennonite
+Mexican
+Mordovian
+Mughal
+Native american
+Nepalese
+New Mexican
+North Indian
+Odia
+Parsi
+Pashtun
+Polish
+Pennsylvania dutch
+Pakistani
+Peranakan
+Persian
+Peruvian
+Portuguese
+Punjabi
+Rajasthani
+Romanian
+Russian
+Sami
+Serbian
+Sindhi
+Slovak
+Slovenian
+Somali
+South Indian
+Soviet
+Spanish
+Sri Lankan
+Taiwanese
+Tatar
+Texan
+Thai
+Turkish
+Tamil
+Udupi
+Ukrainian
+Vietnamese
+Yamal
+Zambian
+Zanzibari
